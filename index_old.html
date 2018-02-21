@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Trivia Game</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+
+
+
+<!-- Added a link to Bootstrap-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+
+
+</head>
+
+<div class="main_container">
+<div class="text-center"
+  <div class="col-lg-8">
+
+<header>
+<h4>*!Universe Trivia*</h4>
+</header>
+
+<body>
+
+	<div id="start_panel">
+		<button id="start" class="btn btn-warning btn lg" onclick="startGame()">START</button>
+	</div>
+
+<div id = "time_rem"><h3>Time Remaining: 30</h3>
+  </div>
+
+
+
+
+<div id = "question">
+  </div>
+
+<div id = "possibleAnswer1">
+  </div>
+
+<button class = "answerChoice" id = "buttonA" class="btn btn-danger btn sm" onclick="checkAnswer(0)">A</button>
+
+<button class = "answerChoice" id = "buttonA" class="btn btn-danger btn sm" onclick="checkAnswer(1)">B</button>
+
+<button class = "answerChoice" id = "buttonA" class="btn btn-danger btn sm" onclick="checkAnswer(2)">C</button>
+
+<button class = "answerChoice" id = "buttonA" class="btn btn-danger btn sm" onclick="checkAnswer(3)">D</button>
+
+<div id = "correcto"><h3></h3>
+  </div>
+
+<div id = "Wrong">
+  </div>
+
+<!-- <video width="320" height="240" controls src="https://ga.video.cdn.pbs.org/videos/victoria/09177716-c64f-4a5a-a12c-e1a7ed6fcf5b/2000022566/hd-16x9-mezzanine-1080p/bcesifig_mast4805-mp4-720p-3000k.mp4">
+</video>
+ -->
+
+
+<div style='margin:0px;padding:0px;'>
+        <!-- <script type='text/javascript'>
+                var player;
+        function onYouTubeIframeAPIReady()
+        {player=new YT.Player('playerId',{events:{onReady:onPlayerReady}})}
+        function onPlayerReady(event){
+
+          // player.mute();
+
+          player.setVolume(100);player.playVideo();}
+        
+        </script> -->
+        <iframe id='playerId' type='text/html' width='320' height='240'
+        src='https://www.youtube.com/embed/lLHFXeHCIAY?enablejsapi=1&rel=0&playsinline=1&autoplay=1&showinfo=0&autohide=1&controls=0&modestbranding=1' frameborder='0'></iframe>
+
+
+        </div>
+
+
+
+
+<!-- <video class="jw-video jw-reset" x-webkit-airplay="allow" webkit-playsinline="" src="https://ga.video.cdn.pbs.org/videos/victoria/09177716-c64f-4a5a-a12c-e1a7ed6fcf5b/2000022566/hd-16x9-mezzanine-1080p/bcesifig_mast4805-mp4-720p-3000k.mp4" style="object-fit: fill;"></video>
+ -->
+<!-- <div id="stop_panel">
+    <button id="stop" class="btn btn-danger btn lg" onclick="stopGame()">STOP</button>
+  </div> -->
+
+
+<!-- <div id="bot2_container">
+	<button id ="button_reset">RESET</button>
+ 
+</div>
+ -->
+<!-- <div id="bot3_container">
+
+<audio id="myAudio">
+  <source src="assets/audio/HereIGoAgain.mp3" type="audio/mp3">
+  Your browser does not support the audio element.
+</audio>
+
+<button onclick="playAudio()" type="button">Play Audio</button>
+<button onclick="pauseAudio()" type="button">Pause Audio</button> 
+
+
+</div> -->
+
+<!-- <script type='text/javascript'>
+                var player;
+        function onYouTubeIframeAPIReady()
+        {player=new YT.Player('playerId',{events:{onReady:onPlayerReady}})}
+        function onPlayerReady(event){
+
+          // player.mute();
+
+          player.setVolume(100);player.playVideo();}
+        
+        </script>
+ -->
+<!-- <script type='text/javascript' src='http://www.youtube.com/iframe_api'></script>
+ -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<script type="text/javascript" src="assets/javascript/app.js"></script>
+
+
+
+</body>
+</div>
+</div>
+</div>
+</html>

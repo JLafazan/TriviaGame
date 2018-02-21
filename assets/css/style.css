@@ -1,0 +1,91 @@
+html{
+
+width:1159px;
+height:648px;
+background-color: pink;
+background: url("../images/Star4.jpg");
+
+}
+
+
+body{
+
+margin: 30px;
+max-width:800px;
+height:650px;
+margin-left: 30px;
+margin-top: 30px;
+border-radius: 20px;
+background: url("../images/whitegranite.jpeg");
+display:block;
+}
+
+header{
+margin-left: 135px;
+width:500px;
+height:70px;
+background-color: #ff4040;
+
+}
+
+.container{
+float:left;
+margin-left: -320px;
+}
+video{
+
+margin-top: -10px;
+/*display:block;*/
+}
+
+iframe{
+
+margin-top: 10px;
+}
+
+
+
+#start_panel{
+margin-top: 30px;
+
+}
+
+#question{
+margin-top: 0px;
+font-size: 30px;
+
+}
+
+#stop_panel{
+margin-top: 30px;
+
+}
+
+#time_rem{
+margin-top: -10px;
+margin-left: -90px;
+/*float: left;*/
+}
+
+
+
+p {
+	font-family: comic sans, Arial;
+	font-size: 15px;
+}
+
+h2 {
+	font-size: 20px;
+
+}
+
+h3 {
+	font-size: 30px;
+
+}
+
+
+h4 {
+	font-size: 40px;
+
+}
