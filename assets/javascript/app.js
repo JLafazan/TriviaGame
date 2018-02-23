@@ -1,6 +1,6 @@
 
 
-var timerAmount = 30;
+var timerAmount = 120;
 var intervalId;
 var questionIndex = 0;
 
@@ -141,6 +141,7 @@ function decrement() {
   
     clearInterval(intervalId);
     location.reload();
+    
   
   }
 }
