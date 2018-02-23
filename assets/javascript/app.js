@@ -131,7 +131,7 @@ function timerCountDown() {
 function decrement() {
   timerAmount--;
   // console.log(timerAmount);
-  $("#time_rem").html("<h3>Time Remaining:  " +timerAmount+"</h3>");
+  $("#time_rem").html("<h3>Time Remaining:  " +timerAmount+" s</h3>");
 
   if (timerAmount === 0) {
   
